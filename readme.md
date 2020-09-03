@@ -74,4 +74,6 @@ https://www.fillingpieces.com/
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/Breakdownschetsen.svg) 
+
+
