@@ -57,12 +57,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Intake (week 1)
 
 **Je startniveau:** -kies uit zwart, rood óf blauw-
+
 Om eerlijk te zijn vind ik het lastig om mijn startniveau aan te geven. Ik vind coderen leuk en wanneer ik zie dat het werkt zoals ik wil, heb ik echt plezier er in. Echter kost het me wel vaak veel moeite en moet ik eerst op gang komen. Ik kies daarom eerst voor de blauwe-piste. Wanneer ik merk dat het toch goed gaat, kan ik altijd nog hoger op.
 
 **Je focus:** -kies uit responsive óf surface plane-
+
 Mijn focus ligt op responsive 
 
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+
+https://www.fillingpieces.com/
 
 **Screenshot(s):**
 
