@@ -70,10 +70,12 @@ https://www.fillingpieces.com/
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken-](images/Breakdownschetsen1.svg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken-]
 
 **Breakdown-schets(en):**
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/Breakdownschetsen.svg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/Breakdownschetsen1.svg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/Naamloos-7.svg)
 
 
