@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Reader', sans-serif;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+
+header {}
+
+.header-title {
+    text-align: left;
+}
+
+nav {}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px;
+}
+
+/* Homepage */
+.creaserunner-image {
+    overflow: auto;
+    height: 450px;
+    background-image: url('./images/crease-runner.jpg');
+    background-position: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family ;
+    border-radius: 5px;
+    color: black;
+    border: solid;
+    border-width: 2px;
+    background-color: white;
+    }
