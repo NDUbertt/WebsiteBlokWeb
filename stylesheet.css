@@ -1,43 +1,150 @@
+/* General Styles */
 body {
     margin: 0px;
     padding: 0px;
     font-family: 'Reader', sans-serif;
     text-decoration: none;
     color: #000000;
+}
 
+h2 {
+
+    color: #737272;
+    font-size: 12px;
 }
 
 
-header {}
+/* Header */
+.site-header-banner span {
+    display: block;
+    color: #343434;
+    text-align: center;
 
-.header-title {
-    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background-color: #e6e6e6;
+    padding: 5px 0;
+    font-size: 13px;
 }
-
-nav {}
 
 nav ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    padding: 0px;
+    padding-top: 1px;
+    background-color: white;
+    font-size: 12px;
+    padding-bottom: 2px;
 }
 
-/* Homepage */
-.creaserunner-image {
-    overflow: auto;
-    height: 450px;
-    background-image: url('./images/crease-runner.jpg');
-    background-position: center;
+a {
+    text-decoration: none;
+    color: #000000;
 }
 
+.logo {
+    width: 200px;
+}
+
+/* creaserunner */
+.main-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.creaserunner {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin: auto;
+}
+
+
+/* buttons (MEN and WOMEN) */
 .btn {
     padding: 10px 20px;
     font-size: 15px;
-    font-family ;
-    border-radius: 5px;
     color: black;
     border: solid;
-    border-width: 2px;
+    border-color: black;
+    border-width: 1px;
     background-color: white;
+    font-size: 13px;
+}
+
+section.test {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.btn:first-of-type {
+    margin-right: 10px;
+}
+
+/* Innovation and signature */
+@media (min-width: 800px) {
+    .homepage-shoes {
+        display: flex;
     }
+}
+
+.homepage-shoe {
+    width: 100%;
+}
+
+.homepage-shoe img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin: auto;
+}
+
+.homepage-shoe {
+    width: 100%;
+}
+
+/* readytowear */
+
+.readytowear-image {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin: auto;
+}
+
+.readytowear img {
+    width: 100%;
+}
+
+
+
+
+/* collection */
+
+.collection-image {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin: auto;
+}
+
+.collection img {
+    width: 100%;
+}
+
+/* Footer */
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background-color: #e6e6e6;
+    color: #737272;
+    font-size: 12px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 0.75rem;
+
+}
