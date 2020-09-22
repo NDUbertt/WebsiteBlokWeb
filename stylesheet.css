@@ -7,12 +7,23 @@ body {
     color: #000000;
 }
 
-h2 {
-
-    color: #737272;
-    font-size: 12px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: white;
+    font-size: 15px;
+    font-family: 'Reader', sans-serif;
+    letter-spacing: 1px;
 }
 
+p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Reader', sans-serif;
+    letter-spacing: 1px;
+}
 
 /* Header */
 .site-header-banner span {
@@ -27,6 +38,7 @@ h2 {
     font-size: 13px;
 }
 
+/* Navigation */
 nav ul {
     display: flex;
     justify-content: space-around;
@@ -46,36 +58,63 @@ a {
     width: 200px;
 }
 
-/* creaserunner */
-.main-container {
-    width: 100%;
-    margin: 0 auto;
+/* creaserunner (image) */
+.creaserunner-image {
+    overflow: auto;
+    height: 450px;
+    background-image: url('./images/crease-runner1.jpg');
+
 }
 
-.creaserunner {
+.creaserunner-image h1 {
+    text-align: center;
     width: 100%;
-    margin: 0 auto;
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.creaserunner-image p {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0px auto;
+    margin-top: 100px;
+
+}
+
+.creaserunner-image button {
+    border: solid;
+    border-color: white;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 50px;
     display: block;
-    margin: auto;
+    color: white;
 }
 
 
 /* buttons (MEN and WOMEN) */
 .btn {
-    padding: 10px 20px;
+    padding: 15px 20px;
     font-size: 15px;
     color: black;
     border: solid;
     border-color: black;
     border-width: 1px;
-    background-color: white;
+    background-color: transparent;
     font-size: 13px;
 }
+
 
 section.test {
     display: flex;
     justify-content: center;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .btn:first-of-type {
@@ -107,16 +146,16 @@ section.test {
 /* readytowear */
 
 .readytowear-image {
+    overflow: auto;
+    height: 250px;
     width: 100%;
-    margin: 0 auto;
-    display: block;
-    margin: auto;
+    background-image: url('./images/readytowear.jpg');
+    background-position: center;
 }
 
-.readytowear img {
-    width: 100%;
-}
+.readytowear-image h1 {}
 
+.readytowear-image p {}
 
 
 
@@ -124,13 +163,12 @@ section.test {
 
 .collection-image {
     width: 100%;
-    margin: 0 auto;
-    display: block;
-    margin: auto;
+    height: auto;
 }
 
 .collection img {
     width: 100%;
+    height: auto;
 }
 
 /* Footer */
