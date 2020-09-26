@@ -40,6 +40,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
+In week 3 liep ik een beetje vast. Ik zag het overzicht niet, dingen lukte niet, ik had migraine en had het druk met school.. 
+Gelukkig had ik het zelf door en ben ik naar Joost gegaan. Joost heeft me goed advies gegeven waardoor ik naar Sam ben gegaan. Na een middagje te hebben gezeten met Sam, ging het eigenlijk weer stukken beter. Het overzicht heb ik weer gevonden en ben weer goed opweg. 
+
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent-
