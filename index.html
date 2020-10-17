@@ -8,24 +8,68 @@
 
 	<title>Filling Pieces</title>
 
-	<link href="stylesheet.css" rel="stylesheet">
+	<link href="styles/stylesheet.css" rel="stylesheet">
 </head>
 
 <body class="homepage">
 	<!-- Header met navigatie -->
 	<header>
 
-		<strong> Free shipping to EU, USA & CAN </strong>
+			<strong> Free shipping to EU, USA & CAN </strong>
+			<nav>
 
-		<nav>
-			<ul>
-				<li><img class="svg" src="images/menu.svg" alt="menu"></li>
-				<li> <img class="logo" src="images/FillingPiecesLogo.png" alt="logo filling pieces"></li>
-				<li><img class="svg" src="images/heart.svg" alt="favorite"></li>
-				<li><img class="svg" src="images/shoppingbag.svg" alt="shopping bag"></li>
-			</ul>
-		</nav>
-	</header>
+
+				<ul><!-- Mobile overlay -->
+					<input type="text" placeholder="Search our store">
+
+					<section>
+						<li>
+							<img src="images/heartempty.svg">
+							<a href="">My wish list </a>
+						</li>
+						<li>
+							<img src="images/profile.svg">
+							<a href="">Login/Register </a>
+						</li>
+					</section>
+
+					<section>
+						<li><a href="#">- men</a></li>
+						<li><a href="#">- woman</a></li>
+						<li><a href="#">- collections</a></li>
+						<li><a href="#">- store locator</a></li>
+					</section>
+
+					<section>
+						<li><a href="#">- faq</a></li>
+						<li><a href="#">- contact</a></li>
+						<li><a href="#">- about</a></li>
+						<li><a href="#">- careers</a></li>
+						<li><button>close</button></li>
+					</section>
+					
+				</ul>
+				
+				<ul>
+					<li><button><img class="svg" src="images/menu.svg" alt="menu"></button></li>
+					<li><img class="logo" src="images/FillingPiecesLogo.png" alt="logo filling pieces"></li>
+					<section>
+						<li><a href="#">men</a></li>
+						<li><a href="#">woman</a></li>
+						<li><a href="#">collections</a></li>
+						<li><a href="#">store locator</a></li>
+					</section>
+					
+						<input type="text" placeholder="Search our store">
+						<section>
+						<ul></ul>
+						<li><img class="svg" src="images/profile.svg" alt="favorite"></li>
+						<li><img class="svg" src="images/heart.svg" alt="favorite"></li>
+					</section>
+				</ul>
+			</nav>
+		</header>
+
 	<main>
 
 		<!-- Crease Runner -->
@@ -59,7 +103,7 @@
 			<img src="images/innovation.jpg" alt="innovation">
 			<header>
 				<p>Collection</p>
-				<h2>Signature</h2>
+				<h2>Innovation</h2>
 				<a href="">SHOP</a>
 			</header>
 		</div>
@@ -86,20 +130,24 @@
 		</section>
 	</main>
 
-	<!-- Footer -->
+	<!-- Footer mobile -->
 	<footer>
 			<section>
 					<button>Payment Methods <img src="images/plus.svg" alt="plus icon"></button>
 					<div>
 						<ul>
-							<li> <a href=""> faq </a></li>
-							<li> <a href=""> shipping </a></li>
-							<li> <a href=""> returns </a></li>
-							<li> <a href=""> contact </a></li>
+							<li> <img src="images/americanexpres.png" alt="American Express"></li>
+							<li> <img src="images/ideal.png" alt="American Express"></li>
+							<li> <img src="images/klarna.png" alt="American Express"></li>
+							<li> <img src="images/mastercard.png" alt="American Express"></li>
+							<li> <img src="images/paypal.png" alt="American Express"></li>
+							<li> <img src="images/sofort.png" alt="American Express"></li>
+							<li> <img src="images/visa.png" alt="American Express"></li>
+							<li> <img src="images/giropay.png" alt="American Express"></li>
 						</ul>
 					</div>
 				</section>
-				<section>
+				
 			<section>
 				<button>Need Assistance? <img src="images/plus.svg" alt="plus icon"></button>
 				<div>
@@ -127,7 +175,14 @@
 			<section>
 					<button>Find us on <img src="images/plus.svg" alt="plus icon"></button>
 					<div>
-						
+						<ul>
+							<a href="#">
+							<li> <img src="images/instagram.png" alt="instagram"></li>
+							<li> <img src="images/twitter.png" alt="twitter"></li>
+							<li> <img src="images/facebook.png" alt="facebook"></li>
+							<li> <img src="images/pinterest.png" alt="pinterest"></li>
+							</a>
+						</ul>
 					</div>
 				</section>
 			<p> By signing up, you accept the terms of Filling Pieces' Privacy Policy and consent to receive Filling Pieces'
@@ -136,10 +191,10 @@
 				<input type="email" placeholder=" Email address">
 				<button type="submit">Subscribe</button>
 			</form>
-		</footer>	
+		</footer>
 
 
-	<script src="javascript.js"></script>
+	<script src="scripts/javascript.js"></script>
 </body>
 
 </html>
