@@ -1,14 +1,14 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** -Noah Ubert-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://www.w3schools.com/
+2. Codepen (opdrachten van Sanne)
+3. https://css-tricks.com/
 
 
 
