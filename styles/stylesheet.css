@@ -301,7 +301,7 @@ nav ul:first-of-type {
 body.homepage main>section:first-of-type {
     overflow: hidden;
     height: 450px;
-    background-image: url('/images/crease-runner1.jpg');
+    background-image: url('../images/crease-runner1.jpg');
     background-position: center;
 
 }
