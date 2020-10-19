@@ -55,7 +55,7 @@ strong {
 
 /* Navigation */
 
- nav ul {
+nav ul {
     display: grid;
     grid-template-columns: 41.5% 1fr 10% 10%;
     list-style: none;
@@ -91,7 +91,7 @@ nav ul:last-of-type {
     align-items: center;
 }
 
-nav ul:last-of-type > li:first-of-type {
+nav ul:last-of-type>li:first-of-type {
     display: none;
 }
 
@@ -106,12 +106,32 @@ nav ul:last-of-type section:first-of-type {
 nav ul:last-of-type section:first-of-type li {
     margin-right: 2em;
 }
-nav ul:last-of-type section:first-of-type li a{    
+
+nav ul:last-of-type section:first-of-type li a {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
+    position: relative;
 }
+
+nav ul:last-of-type section:first-of-type li a:after {
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0%;
+    position: absolute;
+    background: #000000;
+    transition: 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+nav ul:last-of-type section:first-of-type li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
 
 nav ul:last-of-type section:last-of-type {
     display: flex;
@@ -122,6 +142,7 @@ nav ul:last-of-type section:last-of-type li {
     margin-left: 2em;
 }
 
+/* zoekbalk */
 nav ul:last-of-type input {
     width: 250px;
     height: 40px;
@@ -138,7 +159,7 @@ nav ul:last-of-type input {
         display: flex;
         padding-right: 0em;
     }
-    
+
     nav ul:last-of-type section:last-of-type li {
         margin-left: 0em;
         padding: 0;
@@ -245,7 +266,7 @@ nav ul:last-of-type input {
     nav>ul:nth-of-type(2)>li:nth-of-type(2)>img {
         width: 80%;
         display: block;
-        margin-left: 3.5em;
+        margin: auto;
     }
 }
 
@@ -280,7 +301,7 @@ nav ul:first-of-type {
 body.homepage main>section:first-of-type {
     overflow: hidden;
     height: 450px;
-    background-image: url('../images/crease-runner1.jpg');
+    background-image: url('/images/crease-runner1.jpg');
     background-position: center;
 
 }
@@ -317,6 +338,14 @@ body main>section:first-of-type button {
     cursor: pointer;
 }
 
+body main>section:first-of-type button:hover {
+    background-color: white;
+    color: #CB7A5C;
+    transition: 0.25s;
+    transition: ease-in;
+}
+
+
 
 /* buttons (MEN and WOMEN) */
 .btn {
@@ -332,6 +361,11 @@ body main>section:first-of-type button {
 
 }
 
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.25s;
+}
 
 section.genderbuttons {
     display: flex;
@@ -503,7 +537,6 @@ footer ul {
     margin-block-end: 0;
     margin-block-start: 0;
     list-style: none;
-    background: white;
     padding-inline-start: 0px;
 }
 
@@ -525,25 +558,28 @@ footer ul a {
 }
 
 footer section:first-of-type div ul li img {
-   width: 1.5em;
-   justify-content: space-around;
-   padding-left: 1em; 
+    width: 1.5em;
+    justify-content: space-around;
+    padding-left: 1em;
 }
 
-footer section:first-of-type div ul:first-of-type  {
+footer section:first-of-type div ul:first-of-type {
     display: flex;
     padding: 0.5em;
 }
 
 footer section:last-of-type div ul a li img {
     width: 1.5em;
-    justify-content: space-around;  
-    padding-left: 1em; 
- }
- footer section:last-of-type div ul a:last-of-type  {
+    justify-content: space-around;
+    padding-left: 1em;
+}
+
+footer section:last-of-type div ul a:last-of-type {
     display: flex;
     padding: 0.5em;
 }
+
+
 
 
 /* Signature Pagina 2 */
@@ -600,8 +636,28 @@ footer section:last-of-type div ul a li img {
     font-size: 12px;
     font-family: "Reader", sans-serif;
     text-align: center;
+    position: relative;
 
 }
+
+.productpagina main section article h3:after {
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0%;
+    position: absolute;
+    background: #000000;
+    transition: 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.productpagina main section article h3:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+
 
 .productpagina main section article p {
     text-align: center;
@@ -631,12 +687,12 @@ footer section:last-of-type div ul a li img {
     text-align: center;
     margin-top: -3em;
     opacity: 0;
-    transition: 1s opacity;
+    transition: 2s ease;
 
 }
 
 .productpagina section article ol:hover {
-    opacity: 1;
+    opacity: 2;
 }
 
 .productpagina section article div {
