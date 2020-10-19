@@ -41,6 +41,7 @@ Deze week ging niet heel lekker. Ik zag het overzicht niet meer en zat met mijn 
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
+Aan het begin vond ik het positioneren van alle content erg lastig. Achteraf merkte ik dat het steeds beter ging. De opdrachten van Sanne hebben hierbij erg geholpen (grid, positioneren, javascript). Echter merk ik wel dat ik mijn code kan versimpelen (korter). Daarnaast heb ik soms nog moeite met wat nou precies Semantisch correct is en wat niet. 
 
 **Screenshot(s):**
 
