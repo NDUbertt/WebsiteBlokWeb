@@ -301,7 +301,7 @@ nav ul:first-of-type {
 body.homepage main>section:first-of-type {
     overflow: hidden;
     height: 450px;
-    background-image: url('../images/crease-runner1.jpg');
+    background-image: url('/images/crease-runner1.jpg');
     background-position: center;
 
 }
@@ -517,7 +517,7 @@ footer form button {
     text-transform: uppercase;
 }
 
-footer div {
+footer ul {
     background: white;
     padding: none;
     max-height: 0;
@@ -526,7 +526,7 @@ footer div {
     transition: 0.5s linear;
 }
 
-.toonFooter+div {
+.toonFooter+ul {
     opacity: 1;
     height: auto;
     max-height: 10000em;
@@ -537,7 +537,7 @@ footer ul {
     margin-block-end: 0;
     margin-block-start: 0;
     list-style: none;
-    padding-inline-start: 0px;
+    padding-inline-start: 0;
 }
 
 footer ul a {
@@ -557,29 +557,26 @@ footer ul a {
     background: none;
 }
 
-footer section:first-of-type div ul li img {
+footer section:first-of-type ul li img {
     width: 1.5em;
     justify-content: space-around;
     padding-left: 1em;
 }
 
-footer section:first-of-type div ul:first-of-type {
+footer section:first-of-type ul:first-of-type {
     display: flex;
-    padding: 0.5em;
 }
 
-footer section:last-of-type div ul a li img {
-    width: 1.5em;
+footer section:last-of-type ul a li img {
+    width: 1.8em;
     justify-content: space-around;
     padding-left: 1em;
 }
 
-footer section:last-of-type div ul a:last-of-type {
+footer section:last-of-type ul a:last-of-type {
     display: flex;
     padding: 0.5em;
 }
-
-
 
 
 /* Signature Pagina 2 */
@@ -687,7 +684,7 @@ footer section:last-of-type div ul a:last-of-type {
     text-align: center;
     margin-top: -3em;
     opacity: 0;
-    transition: 2s ease;
+    transition: 3s ease;
 
 }
 
