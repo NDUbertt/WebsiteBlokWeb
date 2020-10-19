@@ -9,6 +9,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. https://www.w3schools.com/
 2. Codepen (opdrachten van Sanne)
 3. https://css-tricks.com/
+4. Hamburger menu --> hulp van Ysabella Vargas
+5. Footer --> Hulp van Sam Slotenmaker
 
 
 
