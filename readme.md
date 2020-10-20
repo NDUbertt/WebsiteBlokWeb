@@ -21,7 +21,7 @@ Ik ben erg tevreden over mijn werk. Ik vergelijk mijzelf niet met anderen, want 
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat- (..//images/hamburgermenu.png) (..//images/homepagina.png) (..//images/signature.png)  
+-screenshot(s) van je eindresultaat- (../images/hamburgermenu.png) (../images/homepagina.png) (../images/signature.png)  
 
 
 
