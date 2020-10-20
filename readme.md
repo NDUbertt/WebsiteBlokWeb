@@ -27,12 +27,12 @@ Ik ben erg tevreden over mijn werk. Ik vergelijk mijzelf niet met anderen, want 
 
 ## Voortgang 3 (week 6)
 
-Ik ben bijna klaar met mijn website. Enige waar ik op vastloop is de navigatie en de footer (responsive maken). Inprincipe heb ik ze beiden al op mobieleversie, alleen moet ik er nu nog voor zorgen dat ze beiden ook mooi zijn op webversie. Daarnaast ben ik ook begonnen aan Javascrip, dit gaat tot nu toe goed af.
+Ik ben bijna klaar met mijn website. Enige waar ik op vastloop is de navigatie en de footer (responsive maken). Inprincipe heb ik ze beiden al op mobieleversie, alleen moet ik er nu nog voor zorgen dat ze beiden ook mooi zijn op webversie. Daarnaast ben ik ook begonnen aan Javascrip, dit gaat tot nu toe goed af. Ik denk echter wel dat het me veel moeite gaat kosten om de nav en footer te fixene. Wanneer ik dit klaar heb wil ik extra dingen toevoegen en verbeteren.
 
 
 
 ## Voortgang 2 (week 5)
-Week 5 ging goed. Ik loop goed op schema en de dingen die ik wil doen lukken. Ik merk wel dat ik nog steeds chaotisch werk en soms van hot naar her ga. Het fijne is dat ik het zelf door heb dus er iets aan kan doen. 
+Week 5 ging goed. Ik loop goed op schema en de dingen die ik wil doen lukken. Ik merk wel dat ik nog steeds chaotisch werk en soms van hot naar her ga. Het fijne is dat ik het zelf door heb dus er iets aan kan doen. Ondanks dat heb ik wel een goed begin kunnen maken aan mijn tweedepagina. Ik heb alle items kunnen plaatsen m.b.v. een grid.  Met een mediaquery heb ik hem van 4 op desktop, naar 2 op mobiel kunnen brengen waardoor het in 1 keer snel en mooi responsive is.
 
 
 
