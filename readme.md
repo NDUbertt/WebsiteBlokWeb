@@ -17,10 +17,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+Ik ben erg tevreden over mijn werk. Ik vergelijk mijzelf niet met anderen, want ik doe het voor mezelf. Ik heb in de afgelopen tijd veel geleerd en grote stappen gemaakt. Natuurlijk zijn er verbeter punten, maar als ik zie waar ik begon (makkelijkste piste) ben ik erg blij. Morgen om 15:00 heb ik het gesprekje en dan gaan we zien wat de docent er van vindt.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+-screenshot(s) van je eindresultaat- (images/hamburgermenu.png)(images/homepagina.png) (images/signature.png)  
 
 
 
