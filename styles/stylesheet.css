@@ -1,7 +1,7 @@
 /* General Styles */
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0em;
+    padding: 0ems;
     font-family: 'Reader', sans-serif;
     text-decoration: none;
     color: #000000;
@@ -12,16 +12,16 @@ h3,
 h4,
 h5 {
     color: white;
-    font-size: 15px;
+    font-size: 0.9375em;
     font-family: 'Reader', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 0.125em;
 }
 
 p {
     color: white;
-    font-size: 15px;
+    font-size: 0.9375em;
     font-family: 'Reader', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 0.125em;
 }
 
 h1 {
@@ -46,10 +46,10 @@ strong {
     color: #343434;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.125em;
     background-color: #e6e6e6;
-    padding: 5px 0;
-    font-size: 13px;
+    padding: 0.3125em 0;
+    font-size: 0.8125em;
 
 }
 
@@ -59,9 +59,8 @@ nav ul {
     display: grid;
     grid-template-columns: 41.5% 1fr 10% 10%;
     list-style: none;
-    padding-top: 1px;
     background-color: white;
-    font-size: 12px;
+    font-size:  0.75em;
     padding-bottom: 1em;
     z-index: 1;
 }
@@ -69,14 +68,14 @@ nav ul {
 a {
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 0.9375em;
     font-family: 'Reader', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625em;
     text-decoration: underline;
 }
 
 .logo {
-    width: 200px;
+    width: 15em;
 }
 
 
@@ -95,31 +94,31 @@ nav ul:last-of-type>li:first-of-type {
     display: none;
 }
 
-nav ul:last-of-type section a {
+nav ul:last-of-type div a {
     color: black;
 }
 
-nav ul:last-of-type section:first-of-type {
+nav ul:last-of-type div:first-of-type {
     display: flex;
 }
 
-nav ul:last-of-type section:first-of-type li {
+nav ul:last-of-type div:first-of-type li {
     margin-right: 2em;
 }
 
-nav ul:last-of-type section:first-of-type li a {
+nav ul:last-of-type div:first-of-type li a {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 1em;
     position: relative;
 }
 
-nav ul:last-of-type section:first-of-type li a:after {
+nav ul:last-of-type div:first-of-type li a:after {
     bottom: 0;
     content: "";
     display: block;
-    height: 2px;
+    height: 0.125em;
     left: 0%;
     position: absolute;
     background: #000000;
@@ -127,40 +126,40 @@ nav ul:last-of-type section:first-of-type li a:after {
     width: 0;
 }
 
-nav ul:last-of-type section:first-of-type li a:hover::after {
+nav ul:last-of-type div:first-of-type li a:hover::after {
     width: 100%;
     left: 0;
 }
 
 
-nav ul:last-of-type section:last-of-type {
+nav ul:last-of-type div:last-of-type {
     display: flex;
     padding-right: 3em;
 }
 
-nav ul:last-of-type section:last-of-type li {
+nav ul:last-of-type div:last-of-type li {
     margin-left: 2em;
 }
 
 /* zoekbalk */
 nav ul:last-of-type input {
-    width: 250px;
-    height: 40px;
+    width: 17em;
+    height: 3em;
     border: none;
     padding-left: 0.5em;
     color: black;
-    border: 1px solid #e6e6e6;
-    border-radius: 25px;
+    border: 0.0625em solid #e6e6e6;
+    border-radius: 1.5625em;
 }
 
 /* navigatie op mobiel */
 @media (max-width: 900px) {
-    nav ul:last-of-type section:last-of-type {
+    nav ul:last-of-type div:last-of-type {
         display: flex;
         padding-right: 0em;
     }
 
-    nav ul:last-of-type section:last-of-type li {
+    nav ul:last-of-type div:last-of-type li {
         margin-left: 0em;
         padding: 0;
     }
@@ -169,7 +168,7 @@ nav ul:last-of-type input {
         display: block;
     }
 
-    nav ul:last-of-type section:first-of-type {
+    nav ul:last-of-type div:first-of-type {
         display: none;
     }
 
@@ -188,7 +187,7 @@ nav ul:last-of-type input {
     }
 
     nav ol {
-        padding-inline-start: 0px;
+        padding-inline-start: 0em;
     }
 
     nav a {
@@ -196,9 +195,10 @@ nav ul:last-of-type input {
         list-style-type: none;
         text-decoration: none;
         font-weight: normal;
-        font-size: 12px;
+        font-size: 0.75em;
         font-family: 'Reader', sans-serif;
         letter-spacing: 1px;
+        padding-bottom: 1em ;
         text-transform: uppercase;
     }
 
@@ -208,42 +208,42 @@ nav ul:last-of-type input {
     }
 
     nav ul input {
-        width: 200px;
-        max-width: 600px;
-        height: 40px;
+        width: 12.5em;
+        max-width: 37.5em;
+        height: 2.5em;
         border: none;
         margin-bottom: 2em;
         padding-left: 0.5em;
         color: black;
-        border: 1px solid #e6e6e6;
-        border-radius: 25px;
+        border: 0.0625em solid #e6e6e6;
+        border-radius: 1.5625em;
     }
 
-    nav ul section {
+    nav ul div {
         margin: 1em;
     }
 
-    nav ul section li {
+    nav ul div li {
         list-style: none;
         display: flex;
-        padding-bottom: 1em;
+        padding-bottom: 0.0625em;
 
 
     }
 
-    nav ul section img {
+    nav ul div img {
         width: 1.5em;
         padding-right: 0.5em;
     }
 
     nav ul button {
-        font-size: 15px;
+        font-size: 1em;
         color: black;
         border: solid;
         border-color: black;
-        border-width: 1px;
+        border-width: 0.0625em;
         background-color: transparent;
-        font-size: 13px;
+        font-size: 0.9em;
         cursor: pointer;
         text-transform: uppercase;
 
@@ -305,7 +305,7 @@ nav ul:first-of-type {
 /* creaserunner (image) */
 body.homepage main>section:first-of-type {
     overflow: hidden;
-    height: 450px;
+    height: 28.125em;
     background-image: url('../images/crease-runner1.jpg');
     background-position: center;
 
@@ -314,20 +314,20 @@ body.homepage main>section:first-of-type {
 body main>section:first-of-type h2 {
     text-align: center;
     width: 100%;
-    max-width: 400px;
+    max-width: 25em;
     margin: 0px auto;
-    padding: 15px;
+    padding: 0.9375em;
     color: white;
-    font-size: 30px;
-    letter-spacing: 1px;
+    font-size: 1.875em;
+    letter-spacing: 0.0625em;
 }
 
 body.homepage main>section:first-of-type p {
     text-align: center;
     width: 100%;
-    max-width: 400px;
+    max-width: 25em;
     margin: 0px auto;
-    margin-top: 100px;
+    margin-top: 6.25em;
 
 }
 
@@ -337,7 +337,7 @@ body main>section:first-of-type button {
     background-color: transparent;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px 50px;
+    padding: 1em 3.125em;
     display: block;
     color: white;
     cursor: pointer;
@@ -354,14 +354,14 @@ body main>section:first-of-type button:hover {
 
 /* buttons (MEN and WOMEN) */
 .btn {
-    padding: 15px 20px;
-    font-size: 15px;
+    padding: 1em 1.25em;
+    font-size: 0.9375em;
     color: black;
-    border: solid 3px;
+    border: solid 0.1875em;
     border-color: #737272;
     background: transparent;
-    border-width: 1px;
-    font-size: 13px;
+    border-width: 0.0625em;
+    font-size: 0.8125em;
     cursor: pointer;
 
 }
@@ -382,6 +382,10 @@ section.genderbuttons {
     margin-right: 10px;
 }
 
+section.genderbuttons h2 {
+    position: absolute;
+    margin: -100000em;
+}
 /* Signature and innovation */
 
 @media (min-width: 800px) {
@@ -456,13 +460,13 @@ footer {
 
 footer a {
     color: #737272;
-    font-size: 12px;
-    letter-spacing: 1px;
+    font-size: 0.75em;
+    letter-spacing: 0.0625em;
     text-transform: uppercase;
     display: block;
     cursor: pointer;
     border-bottom: 1px solid #fff;
-    padding: 7px 20px;
+    padding: 0.4375em 1.25em;
     line-height: 2em;
 
 }
@@ -474,7 +478,7 @@ footer section button {
     align-items: center;
     border: none;
     color: #737272;
-    font: 12px;
+    font: 0.75em;
     text-transform: uppercase;
     padding-left: 1em;
     border-bottom: 2px solid #fff;
@@ -490,7 +494,7 @@ footer button img {
 
 footer p {
     font-family: 'Reader', sans-serif;
-    font-size: 12px;
+    font-size: 0.75em;
     color: #737272;
     line-height: 1.5em;
     padding: 1em;
@@ -511,13 +515,13 @@ footer form input {
 
 footer form button {
     padding: 0.5em;
-    font-size: 15px;
+    font-size: 0.9375em;
     color: white;
     border: solid;
     border-color: black;
-    border-width: 1px;
+    border-width: 0.0625em;
     background-color: black;
-    font-size: 13px;
+    font-size: 0.8125em;
     cursor: pointer;
     text-transform: uppercase;
 }
@@ -549,15 +553,15 @@ footer ul {
 
 footer ul a {
     color: #737272;
-    font: 12px;
+    font: 0.75em;
     text-decoration: none;
     margin: auto;
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 0.0625em solid #e6e6e6;
 }
 
 .productpagina footer p {
     font-family: 'Reader', sans-serif;
-    font-size: 12px;
+    font-size: 0.75em;
     color: #737272;
     line-height: 1.5em;
     padding-left: 1.5em;
@@ -574,15 +578,20 @@ footer section:first-of-type ul:first-of-type {
     display: flex;
 }
 
-footer section:last-of-type ul a li img {
+footer section:last-of-type ul li a img {
     width: 1.8em;
     justify-content: space-around;
     padding-left: 1em;
 }
 
-footer section:last-of-type ul a:last-of-type {
+footer section:last-of-type ul:last-of-type {
     display: flex;
     padding: 0.5em;
+}
+
+footer section h2 {
+    position: absolute;
+    margin: -100000em;
 }
 
 
@@ -590,11 +599,11 @@ footer section:last-of-type ul a:last-of-type {
 
 .productpagina p {
     font-family: "Reader", sans-serif;
-    font-size: 12px;
+    font-size: 0.75em;
     background: #fff;
     line-height: 1.5em;
     color: #343434;
-    max-width: 700px;
+    max-width: 43.75em;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 1em;
@@ -603,11 +612,11 @@ footer section:last-of-type ul a:last-of-type {
 
 .productpagina h2 {
     font-family: "Reader", sans-serif;
-    font-size: 30px;
+    font-size: 1.875em;
     background: #fff;
     line-height: 1.5em;
     color: #343434;
-    max-width: 700px;
+    max-width: 43.75em;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -637,7 +646,7 @@ footer section:last-of-type ul a:last-of-type {
 
 .productpagina main section article h3 {
     color: #343434;
-    font-size: 12px;
+    font-size:  0.75em;
     font-family: "Reader", sans-serif;
     text-align: center;
     position: relative;
@@ -648,7 +657,7 @@ footer section:last-of-type ul a:last-of-type {
     bottom: 0;
     content: "";
     display: block;
-    height: 2px;
+    height: 0.125em; 
     left: 0%;
     position: absolute;
     background: #000000;
