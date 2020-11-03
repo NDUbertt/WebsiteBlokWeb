@@ -55,16 +55,6 @@ strong {
 
 /* Navigation */
 
-nav ul {
-    display: grid;
-    grid-template-columns: 41.5% 1fr 10% 10%;
-    list-style: none;
-    background-color: white;
-    font-size:  0.75em;
-    padding-bottom: 1em;
-    z-index: 1;
-}
-
 a {
     text-decoration: none;
     color: white;
@@ -75,46 +65,43 @@ a {
 }
 
 .logo {
-    width: 15em;
+    width: 12em;
+    margin: 0;
 }
 
 
 .svg {
-    width: 2em;
+    width: 1.8em;
     cursor: pointer;
 }
 
-nav ul:last-of-type {
+nav ul:last-of-type{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    list-style: none;
+    padding-inline-start: 0em;
+
+ 
 }
 
-nav ul:last-of-type>li:first-of-type {
+nav ul:last-of-type> li:first-of-type {
     display: none;
 }
 
-nav ul:last-of-type div a {
-    color: black;
-}
-
-nav ul:last-of-type div:first-of-type {
-    display: flex;
-}
-
-nav ul:last-of-type div:first-of-type li {
-    margin-right: 2em;
-}
-
-nav ul:last-of-type div:first-of-type li a {
+nav ul:last-of-type a {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1em;
     position: relative;
+    margin-right: 2em;
+    font-size: 0.8em;
 }
 
-nav ul:last-of-type div:first-of-type li a:after {
+
+
+nav ul:last-of-type li a:after {
     bottom: 0;
     content: "";
     display: block;
@@ -124,21 +111,12 @@ nav ul:last-of-type div:first-of-type li a:after {
     background: #000000;
     transition: 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
+
 }
 
-nav ul:last-of-type div:first-of-type li a:hover::after {
+nav ul:last-of-type li a:hover::after {
     width: 100%;
     left: 0;
-}
-
-
-nav ul:last-of-type div:last-of-type {
-    display: flex;
-    padding-right: 3em;
-}
-
-nav ul:last-of-type div:last-of-type li {
-    margin-left: 2em;
 }
 
 /* zoekbalk */
@@ -150,22 +128,29 @@ nav ul:last-of-type input {
     color: black;
     border: 0.0625em solid #e6e6e6;
     border-radius: 1.5625em;
+    margin-bottom: 1em;
 }
 
 /* navigatie op mobiel */
 @media (max-width: 900px) {
-    nav ul:last-of-type div:last-of-type {
+
+    nav ul:nth-of-type(2) li:nth-of-type(3) {
+        display: none;
+    }
+
+    nav ul:last-of-type li:first-of-type {
         display: flex;
+        flex-direction: row;
         padding-right: 0em;
     }
+
+    nav ul:last-of-type> li:first-of-type button{
+    display: flex;
+}
 
     nav ul:last-of-type div:last-of-type li {
         margin-left: 0em;
         padding: 0;
-    }
-
-    nav ul:last-of-type li:first-of-type {
-        display: block;
     }
 
     nav ul:last-of-type div:first-of-type {
@@ -199,7 +184,12 @@ nav ul:last-of-type input {
         font-family: 'Reader', sans-serif;
         letter-spacing: 1px;
         padding-bottom: 1em ;
-        text-transform: uppercase;
+        text-transform: uppercase; 
+    }
+
+    nav ul:first-of-type li {
+        display: flex;
+        flex-direction: column;
     }
 
    nav a:hover::after {
@@ -220,23 +210,35 @@ nav ul:last-of-type input {
     }
 
     nav ul div {
-        margin: 1em;
+        margin-bottom: 1em;
     }
 
-    nav ul div li {
+    nav ul  li {
         list-style: none;
         display: flex;
         padding-bottom: 0.0625em;
-
-
     }
+
+    nav ul:first-of-type li:first-of-type div div img {
+        margin-bottom: -1em;
+    }
+     nav ul:first-of-type li:first-of-type div img {
+        margin-bottom: -1em;
+    }
+
+    ul:first-of-type li:nth-of-type(2) {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
 
     nav ul div img {
         width: 1.5em;
         padding-right: 0.5em;
     }
 
-    nav ul button {
+    nav ul li:first-of-type button {
+        display: block;
         font-size: 1em;
         color: black;
         border: solid;
