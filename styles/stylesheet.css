@@ -530,7 +530,7 @@ footer form button {
 
 footer ul {
     background: white;
-    padding: none;
+    padding: 0em;
     max-height: 0;
     pointer-events: none;
     opacity: 0;
@@ -727,4 +727,9 @@ footer section h2 {
 .productpagina section article div button img {
     width: 2em;
 
+}
+
+.productpagina section h2 {
+    position: absolute;
+    margin: -100000em;
 }
