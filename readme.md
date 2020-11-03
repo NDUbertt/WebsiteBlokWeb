@@ -21,7 +21,7 @@ Ik ben erg tevreden over mijn werk. Ik vergelijk mijzelf niet met anderen, want 
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat- ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/hamburgermenu.png) (images/homepagina.png) (images/signature.png)  
+-screenshot(s) van je eindresultaat- ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/hamburgermenu.png) (![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/homepaginapng)![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/signature.png)
 
 
 
