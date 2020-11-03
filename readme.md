@@ -21,7 +21,7 @@ Ik ben erg tevreden over mijn werk. Ik vergelijk mijzelf niet met anderen, want 
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat- (../images/hamburgermenu.png) (../images/homepagina.png) (../images/signature.png)  
+-screenshot(s) van je eindresultaat- !(images/hamburgermenu.png) (images/homepagina.png) (images/signature.png)  
 
 
 
@@ -70,7 +70,7 @@ https://www.fillingpieces.com/
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Breakdownschetsensvg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Breakdownschetsen.svg)
 
 **Breakdown-schets(en):**
 
