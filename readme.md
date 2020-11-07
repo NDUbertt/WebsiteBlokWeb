@@ -14,7 +14,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 
-## Eindgesprek (week 7/8)
+## Eindgesprek (week 7/8) + Herkansing 
+
+AANPASSINGEN HERKANSING 
+Hey Joost,
+
+Ik heb HTMl semantisch correct gemaakt (sections weggehaald en andere foute dingen), Ik heb extra Headings toegevoegd, ik heb ervoor gezorgd dat de twee buttons in mijn nav te bereiken zijn via de tab en dat het twee linkjes zijn en daarnaast heb ik de CSS aangepast, dus als het goed is ben ik nu helemaal klaar. 
+
+De validators geven niks aan, behalve dat de scource van de foto's een spatie bevatten, maar ik hoorde van mijn klasgenootjes  dat dat niet zo erg was en dat zij dat ook hebben. Voor de rest heb ik geen errors meer!
+
+Heel erg bedankt voor alle hulp en de goede lessen!
 
 -dit ging goed & dit was lastig-
 Ik ben erg tevreden over mijn werk. Ik vergelijk mijzelf niet met anderen, want ik doe het voor mezelf. Ik heb in de afgelopen tijd veel geleerd en grote stappen gemaakt. Natuurlijk zijn er verbeter punten, maar als ik zie waar ik begon (makkelijkste piste) ben ik erg blij. Morgen om 15:00 heb ik het gesprekje en dan gaan we zien wat de docent er van vindt.
